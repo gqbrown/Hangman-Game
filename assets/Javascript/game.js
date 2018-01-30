@@ -1,6 +1,6 @@
 // Hangman Game
 
-var word ="madonna"
+var word ="gregory"
 
 // Use Key event for the Letters the players will type 
 // Use onkeyup event listening
@@ -38,6 +38,17 @@ var lettersGuessed = function(userKeyPressed) {
 
 }
 
+var handleLetterPressedes = function(event) {
+	var usersGuessedLetter = e.key;
+	// functions - checks to see if the letter is in the word.
+	//If Letters is in the word, display it on the screen
+	// Else IF the Letter is no in the word
+			// Call the decreased guess function.
+			// Call the letterGuessed function.
+
+		letterGuessed(usersGuessedLetter);
+
+}
 
 // Create a variable for the word
 // Display a dash , for each latter in the word.
